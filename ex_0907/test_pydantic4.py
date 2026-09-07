@@ -2,20 +2,6 @@ from pydantic import BaseModel, Field, field_validator
 from typing import List
 import re
 
-# class User(BaseModel):
-#     name: str
-#     age: int
-#     email: str
-
-# user = User(
-#     name="Alice",
-#     age="25",
-#     email="alice@example.com",
-# )
-
-# print(user)
-# print(user.age)
-# print(type(user.age))
 
 class User(BaseModel):
     id: int
