@@ -8,9 +8,3 @@
 * 목록3
 
 python version : 3.12.10
-
-Nice to meet you
-
-```python
-print("Hello World")
-```
