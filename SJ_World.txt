@@ -1,5 +1,19 @@
 Hi Hi Hi Hi
 
 
-welcome to git hub world
 
+..\.thirdvenv\Scripts\activate   상위폴더 가상환경에 들어가기
+
+cd ..\ex_0908_2
+cd ..\ex_0904       경로 찾아가기
+
+
+
+deactivate 가상환경 닫기
+
+------fastapi 실행-----   
+
+fastapi dev 파일명.py
+
+uvicorn 파일명:app --reload
+----------------------------
