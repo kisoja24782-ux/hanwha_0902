@@ -21,7 +21,7 @@ current_id = 1 # 새 아이템이 생길 때마다 부여할 고유 번호표
 def create_item(item: Item):
     global current_id # 함수 밖에 있는 current_id 값을 변경하기 위해 선언
 
-    # Pydantic 모델(item)을 파이썬 딕셔너리로 변환 ( Pydantic V2 권장 방식 )
+    # Pydantic 모델(item)을 객체상태인데 파이썬 딕셔너리로 변환 ( Pydantic V2 권장 방식 )
     new_data = item.model_dump()
     # 알맹이(딕셔너리) 안에 자기 자신의 번호표(id)를 추가해 줌
     new_data["id"] = current_id

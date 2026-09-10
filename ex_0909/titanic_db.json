@@ -1,0 +1,16 @@
+{
+    "1": {
+        "person_number": 0,
+        "name": "string",
+        "sex": "string",
+        "age": 0,
+        "fare": 0.0,
+        "survived": 0,
+        "pclass": 0,
+        "ticket": "string",
+        "sibsp": 0,
+        "parch": 0,
+        "embarked": "string",
+        "id": 1
+    }
+}
