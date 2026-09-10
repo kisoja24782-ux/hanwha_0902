@@ -5,7 +5,7 @@ Hi Hi Hi Hi
 ..\.thirdvenv\Scripts\activate   상위폴더 가상환경에 들어가기
 
 cd ..\ex_0908_2
-cd ..\ex_0904       경로 찾아가기
+cd ..\ex_0904       상위 폴더로 한단계 이동 후 경로 찾아가기
 
 
 
