@@ -132,12 +132,14 @@ celerybeat.pid
 .venv
 .thirdvenv
 .fastapivenv
+.fastvenv
 .streamvenv
 env/
 venv/
 .homevenv/
 .thirdvenv/
 .fastapivenv/
+.fastvenv/
 .streamvenv/
 ENV/
 env.bak/
