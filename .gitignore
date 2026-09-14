@@ -135,6 +135,7 @@ celerybeat.pid
 .fastvenv
 .streamvenv
 .env
+*.env
 .env/
 env/
 venv/
