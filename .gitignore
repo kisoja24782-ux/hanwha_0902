@@ -149,7 +149,7 @@ env.bak/
 venv.bak/
 
 #ollama
-.gguf
+*.gguf
 
 # Spyder project settings
 .spyderproject
