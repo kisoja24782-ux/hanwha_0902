@@ -17,3 +17,7 @@ fastapi dev 파일명.py
 
 uvicorn 파일명:app --reload
 ----------------------------
+
+
+python -m pip install --upgrade pip
+pip install langchain langchain-classic langchain-openai langchain-chroma langchain-teddynote python-dotenv pandas jupyter ipykernel langchain-community
