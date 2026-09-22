@@ -148,6 +148,11 @@ ENV/
 env.bak/
 venv.bak/
 
+/ex_0922/cache/
+/ex_0922_2/tmp/
+/ex_0922_2/chroma_db/
+/ex_0922_2/faiss_db/
+
 #ollama
 *.gguf
 
